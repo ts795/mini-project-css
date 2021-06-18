@@ -7,6 +7,7 @@ h1 {
     color: var(--text);
     font-family: var(--font);
     text-align: center;
+    font-size: 36px;
 }
 
 header p {
@@ -19,3 +20,35 @@ header p {
 body {
     background-color: gray;
 }
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    border: solid;
+    min-width: 400px;
+    min-height: 200px;
+}
+
+section header {
+    color: var(--text);
+    font-size: 24px;
+    border: solid;
+    border-color:white;
+
+}
+
+section p {
+    color: var(--text);
+    font-size: 12px;
+
+}
+
+.card-content {
+    border: dashed;
+    border-color: white;
+
+}
+
