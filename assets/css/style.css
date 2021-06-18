@@ -1,0 +1,21 @@
+:root {
+    --text: purple;
+    --font: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: var(--text);
+    font-family: var(--font);
+    text-align: center;
+}
+
+header p {
+    color: white;
+    text-align: center;
+    font-family: var(--font);
+    font-size: 12px;
+}
+
+body {
+    background-color: gray;
+}
